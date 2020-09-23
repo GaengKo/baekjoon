@@ -16,4 +16,3 @@ for i in range(int(n**0.5), int((n//4)**0.5), -1):
                     if k*k == temp2 and result > 3:
                         result = 3
 print(result)
-        
