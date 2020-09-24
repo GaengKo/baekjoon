@@ -1,0 +1,28 @@
+using System;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main()
+        {
+            int data = int.Parse(Console.ReadLine());
+            double max = 0;
+            double[] a = new double[data];
+            string[] b = Console.ReadLine().Split(' ');
+            for (int i = 0; i < data; i++)
+            {
+                a[i] = int.Parse(b[i]);
+                if (max < a[i])
+                    max = a[i];
+            }
+            double sum = 0;
+            for (int i = 0; i < data; i++)
+            {
+                a[i] = a[i] / max * 100.0;
+                sum += a[i];
+            }
+            Console.WriteLine(sum / data);
+        }
+    }
+}
