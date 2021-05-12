@@ -1,11 +1,4 @@
-# baekjoon
-algorithm 문제 풀이 코드
-
-## Hi there 👋
-- 😄 1 day 1 commit.
-- 🔭 I'm working as a computer vision engineer.
-- 🌱 I’m currently learning `-`
-- 📫 How to reach me: oom2024@naver.com
+Deep learning & Computer Vision
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=GaengKo&show_icons=true&theme=radical&hide=contribs,prs,stars&count_private=true)
 
